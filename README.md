@@ -3,7 +3,7 @@ POSCAR file is converted into QE structure input, which can be concatenated with
 
 Calculated Dielectric constant and BORN charges are read from ph.out file of QE. An OUTCAR file generated from calculation of Dielectric constant for same material is used. Values of Dielectric constant and BORN charges calculated using VASP is replaced with the values from QE. 
 
-These codes can be used to calculate Raman Tensors using Phonopy Spectroscopy (https://github.com/JMSkelton/Phonopy-Spectroscopy) using QE. This code tricks Phonopy-Spectroscopy to think that outputs were generated using VASP.
+These codes can be used to calculate Raman Tensors using Phonopy Spectroscopy (https://github.com/JMSkelton/Phonopy-Spectroscopy) and QE. This code tricks Phonopy-Spectroscopy to think that outputs were generated using VASP.
 
 
 
