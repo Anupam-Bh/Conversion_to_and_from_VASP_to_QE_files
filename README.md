@@ -16,3 +16,4 @@ Steps:
 4. Get an OUTCAR file which was used by VASP calculation to calculate epsilon
 5. ph.out values are read and OUTCAR epsilon and BORN charge values are replaced with QE values :
 <code> sh phonopy-raman_QE_to_outcar.sh </code> (This will call QE_BORN_Dielectric_to_OUTCAR.py)
+6. Next steps are same as described in Phonopy-Spectroscopy page.
