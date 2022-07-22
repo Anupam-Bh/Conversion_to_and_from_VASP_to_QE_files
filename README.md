@@ -6,7 +6,7 @@ Calculated Dielectric constant and BORN charges are read from ph.out file of QE.
 These codes can be used to calculate Raman Tensors using Phonopy Spectroscopy (https://github.com/JMSkelton/Phonopy-Spectroscopy) and QE. This code tricks Phonopy-Spectroscopy to think that outputs were generated using VASP.
 
 N.B.: export Spectroscopy folder into PYTHONPATH by:
-export PYTHONPATH=$PYTHONPATH:/home/mech/phd/mez168274/software/phonopy_spectroscopy/Phonopy-Spectroscopy-master/
+<code>export PYTHONPATH=$PYTHONPATH:/home/mech/phd/mez168274/software/phonopy_spectroscopy/Phonopy-Spectroscopy-master/</code>
 
 Steps:
 1. Generate the displaced files using   
